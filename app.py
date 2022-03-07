@@ -21,7 +21,7 @@ if __name__ == "__main__":
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True) # tokenizer
 
 
-    model =  DistilBertForSequenceClassification.from_pretrained("/home/utkarsh_pratiush/others/kure/distilbert_model_news").to(device)
+    model =  DistilBertForSequenceClassification.from_pretrained("distilbert_model_news").to(device)
 
 
     soup = bs(requests.get(user_input).__dict__['_content'], "html5lib")
