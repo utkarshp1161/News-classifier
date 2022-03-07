@@ -1,8 +1,10 @@
 # News-classifier
 data_scraping, preprocessing, training classfier and finally deployed
 
--> Classifies news in to 4 categories: [international, science-tech, sports, magazine]
+-> Classifies news in to 4 categories: [international, science-tech, sports, magazine] --> outputs the probability
 -> input required : the link of news article, eg:https://www.thehindu.com/todays-paper/tp-sports/confident-barcelona-hosts-psg/article33846358.ece
+
+
 
 screenshot of app : https://github.com/utkarshp1161/News-classifier/blob/main/screen-shot-web-app.png
 
