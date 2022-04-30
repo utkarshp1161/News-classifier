@@ -20,3 +20,5 @@ before running the app you would need to get model weights, 2 ways to get the we
 
 Also before running please verify the location of the file youre trying to access in the script.
 
+____
+
